@@ -7,10 +7,10 @@ let sum=function(a){
     return s;
 }
 console.log("Original array",arr);
-console.log("Sum:",sum(arr));
+console.log("Sum(using anonymous):",sum(arr));
 //b.iife
 ((a)=>{
     let s=0;
     a.forEach(i=>s+=i);
-    console.log("Sum:",s);
+    console.log("Sum(using iife):",s);
 })(arr)
