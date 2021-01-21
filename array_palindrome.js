@@ -20,7 +20,7 @@ console.log("Original array:",arr);
 console.log("Palindrome numbers:",prime(arr));
 
 //iife
-let arr2=[323,454,554,567,444]
+let arr2=[323,454,554,567,444];
 ((a)=>{
     let temp=[];
     console.log("Original array:",a);
